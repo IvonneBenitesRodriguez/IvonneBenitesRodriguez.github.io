@@ -4,163 +4,143 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chocolate Chip Cookie</title>
+    <title>Weather Information</title>
     <style>
-      .container {
+      .weather {
+        font-family: Arial, Helvetica, sans-serif;
         display: block;
-        margin: 40px auto;
-        background: linear-gradient(
-          44.8deg,
-          rgba(255, 136, 102, 0.67)-53.1%,
-          rgba(255, 221, 136, 0.28) 49%
-        );
-        max-width: 50%;
-        padding: 40px 40px;
-        border-radius: 20px;
-      }
-      h1 {
-        font-family: "Dancing Script", cursive;
         text-align: center;
-        border: 2px solid pink;
-        padding: 15px 15px;
-        font-size: 30px;
-        font-weight: bold;
-        color: #8f4426;
-      }
-      h2 {
-        font-family: "Catamaran", sans-serif;
-        text-align: center;
-        font-size: 20px;
-        padding: 10px 10px;
-        margin: 0;
-        color: #8f4426;
-      }
-      hr {
-        width: 100%;
-        margin-right: 0;
-        text-align: center;
-        border: 0.7px solid palevioletred;
-      }
-      img {
-        display: block;
-        margin: 10px auto;
-        width: 80%;
-        height: auto;
-      }
-      p {
+        margin: 16px auto;
+        list-style: none;
+        height: 75px;
+        width: auto;
         padding-top: 10px;
-        font-size: 18px;
-        font-family: "Alegreya Sans", sans-serif;
-        line-height: 32px;
-        width: 100%;
-        color: #8f4426;
+        padding-bottom: 30px;
       }
-      p strong em {
-        font-size: 22px;
+      .weather:hover {
+        background: #fffcf4;
+        width: 380px;
+        font-family: Helvetica, Arial, sans-serif;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 380px transparent;
       }
-      a {
-        font-size: 16px;
-        display: block;
-        margin: 24px auto;
-        color: palevioletred;
-        font-weight: bold;
-        font-family: "Alegreya Sans", sans-serif;
-      }
-      button {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        padding: 30px 10px;
-        border-radius: 15px;
-        font-size: 20px;
-        background: pink;
-        border: 2px solid palevioletred;
-        color: #8f4426;
-        font-weight: bold;
-        box-shadow: 5px 5px 7px gray;
+      ul {
+        margin: 0;
+        padding-left: 0;
       }
 
+      h3 strong {
+        font-weight: bold;
+        font-size: 1em;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      p strong {
+        font-weight: bold;
+      }
+      p {
+        font-family: monospace;
+        font-size: 18px;
+        opacity: 0.7;
+      }
+
+      h1 {
+        color: #1a64d6;
+        text-align: center;
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0;
+      }
+      h2 {
+        margin: 0;
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: 400;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      h3 {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.26em;
+        font-weight: bold;
+      }
+      button {
+        display: block;
+        padding: 16px 24px;
+        border-radius: 30px;
+        box-shadow: 4px 4px 5px gray;
+        background: #1a64d6;
+        color: white;
+        border: 1px solid #1a64d6;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px auto;
+        transition: all 200ms ease;
+      }
       button:hover {
         cursor: pointer;
-        border: 2px solid white;
-        color: pink;
-        background: #8f4426;
+        background: white;
+        color: #1a64d6;
       }
-      @media(max-width: 600px){
-        button{
-          font-size: 15px;
-        }
+      .coded {
+        font-family: monospace;
+        color: #6e6e6e;
+        font-weight: lighter;
+        font-size: 18px;
+        margin: 20px;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Special Cooking Recipes against Covid19</h1>
-      <h2>Delicious Chocolate Chip Cookie with chocolate 100% cacao</h2>
-      <hr />
-      <img
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/058/original/skilletCookie.jpg?1625191182"
-        alt="skillet cookie"
-        width="200"
-      />
-      <hr />
-      <p>
-        <strong><em>A Chocolate Chip Cookie</em></strong> is a drop cookie that
-        features chocolate chips or chocolate morsels as its distinguishing
-        ingredient.<br />
-        Chocolate chip cookies originated in the United States around
-        <strong>1938</strong>, when Ruth Graves Wakefield chopped up a Nestlé
-        semi-sweet chocolate bar and added the chopped chocolate to a cookie
-        recipe. <br />Skip the baking sheets and grab your skillet for a
-        crowd-friendly recipe for The Ultimate Skillet Chocolate Chip
-        Cookie.Skillet cookie, cookie sundae, pizookie—no matter what you call
-        it, one thing is certain:<br />
-        <strong>warm cookie + ice cream = dessert perfection!</strong> It’s hard
-        to beat that view below. The vanilla bean ice cream slowly melting into
-        every nook and cranny of melted chocolate, chewy cookie dough and
-        crunchy sea salt. Don’t forget that last part! The addition of the sea
-        salt is what takes this family favorite skillet chocolate chip cookie
-        from amazing to oh-so-spectacular.<br />
-        I’ve opted for chopped semisweet chocolate in this variation, but you
-        can let your imagination run wild when it comes to chocolate varieties.
-        <br />I love a combo of semisweet and dark chocolate chunks so you get
-        that duo of cacao flavors.
-      </p>
-      <a
-        href="https://en.wikipedia.org/wiki/Chocolate_chip_cookie"
-        target="_blank"
-      >
-        Enjoy more on Wikipedia
-      </a>
-      <button>Buy a Chocolate Chip Cookie</button>
-    </div>
-    <script>
-      function cookie() {
-        let name = prompt("What is your name?");
-        let payment = prompt("What is your payment method?");
-        payment = payment.toLowerCase();
-        payment = payment.trim();
+    <h1 class="log-web">
+      ⛅ <br />
+      Currently 17° in Lima
+    </h1>
+    <h2>13° / <strong>23°</strong></h2>
+    <ul>
+      <div class="weather">
+        <li>
+          <h3>🌧️<strong>Tomorrow</strong></h3>
+        </li>
+        <p>10° /<strong> 22°</strong></p>
+      </div>
+      <div class="weather">
+        <li>
+          <h3>☁️<strong>Saturday</strong></h3>
+        </li>
+        <p>15° /<strong> 17°</strong></p>
+      </div>
+      <div class="weather">
+        <li>
+          <h3>🌞<strong>Sunday</strong></h3>
+        </li>
+        <p>25° /<strong> 28°</strong></p>
+      </div>
+    </ul>
 
-        if (
-          payment === "visa" ||
-          payment === "mastercard" ||
-          payment === "american express"
-        ) {
-          alert(`"Thanks ${name},you can use our app and pay your order 😊"`);
-        } else if (payment === "cash") {
-          alert(
-            `"Thanks ${name}, we will be in touch. Meanwhile, we are not receiving orders in cash 😔"`
-          );
-        } else if (payment === "paypal") {
-          alert(`"${name}, you can use our app 😊"`);
-        } else if (payment === "bitcoin") {
-          alert(`"${name} sadly we don't work anymore with Bitcoins 😔"`);
+    <button type="button">Change city</button>
+    <div class="coded">Coded by Ivonne Benites</div>
+
+    <script>
+      function changeCity() {
+        let city = prompt("What city do you live?");
+        let temperature = prompt("what temperature is it?");
+
+        if (temperature >= 0) {
+          let h1 = document.querySelector("h1");
+          h1.innerHTML = `😊<br> Currently ${temperature} °C in ${city}`;
+        } else if (temperature < 0) {
+          let h1 = document.querySelector("h1");
+          h1.innerHTML = `😔<br>Currently ${temperature} °C in ${city}`;
         }
       }
 
-      let information = document.querySelector("button");
-      information.addEventListener("click", cookie);
+      let button = document.querySelector("button");
+      button.addEventListener("click", changeCity);
     </script>
   </body>
 </html>
